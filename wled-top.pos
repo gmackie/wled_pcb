@@ -1,0 +1,16 @@
+### Module positions - created on 03/26/21 20:28:55 ###
+### Printed by Pcbnew version kicad (5.1.9)-1
+## Unit = mm, Angle = deg.
+## Side : top
+# Ref     Val          Package                                                PosX       PosY       Rot  Side
+C1        10uF         C_0201_0603Metric                                   53.3400   -36.8300  180.0000  top
+C2        10uF         C_0201_0603Metric                                   53.3400   -34.2900  180.0000  top
+D2        LED          LED_0201_0603Metric                                 53.3400   -31.7500  180.0000  top
+J3        QWIIC        JST_SH_SM04B-SRSS-TB_1x04-1MP_P1.00mm_Horizontal    77.2160   -34.5440   90.0000  top
+Q1        S8050        SOT-23                                              57.1500   -33.0200    0.0000  top
+Q2        S8050        SOT-23                                              64.6750   -33.0200    0.0000  top
+R1        12k          R_0201_0603Metric                                   60.9600   -31.7500    0.0000  top
+R2        12k          R_0201_0603Metric                                   60.9600   -34.2900    0.0000  top
+U1        ESP-12E      ESP-12E                                             37.3380   -35.3060    0.0000  top
+U2        AMS1117-3.3  SOT-223-3_TabPin2                                   59.6900   -39.3700  180.0000  top
+## End
