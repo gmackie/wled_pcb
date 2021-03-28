@@ -18,3 +18,5 @@ fp-info-cache
 *.ses
 # Output for PCB House
 *.zip
+
+*.code-workspace

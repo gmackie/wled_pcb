@@ -1,4 +1,4 @@
-Comment,Designator,Footprint,LCSC Part #
+Comment,Designator,Footprint,LCSC Part Number
 10uF Unpolarized capacitor,"C1,C2",C_0201_0603Metric,C19702
 "1N5819 40V 1A Schottky Barrier Rectifier Diode, DO-41",D1,D_SOD-323,C191023
 LED Light emitting diode,D2,LED_0201_0603Metric,C2286
