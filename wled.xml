@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <export version="D">
   <design>
-    <source>D:\dev\wled\wled\wled.sch</source>
-    <date>3/26/2021 10:11:26 PM</date>
+    <source>D:\dev\wled_pcb\wled.sch</source>
+    <date>3/30/2021 12:20:02 AM</date>
     <tool>Eeschema (5.1.9)-1</tool>
     <sheet number="1" name="/" tstamps="/">
       <title_block>
@@ -57,7 +57,7 @@
     </comp>
     <comp ref="R1">
       <value>12k</value>
-      <footprint>Resistor_SMD:R_0201_0603Metric</footprint>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
       <datasheet>~</datasheet>
       <fields>
         <field name="JCSC">C22790</field>
@@ -69,7 +69,7 @@
     </comp>
     <comp ref="R2">
       <value>12k</value>
-      <footprint>Resistor_SMD:R_0201_0603Metric</footprint>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
       <datasheet>~</datasheet>
       <fields>
         <field name="JCSC">C22790</field>
@@ -138,7 +138,7 @@
     </comp>
     <comp ref="C1">
       <value>10uF</value>
-      <footprint>Capacitor_SMD:C_0201_0603Metric</footprint>
+      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
       <datasheet>~</datasheet>
       <fields>
         <field name="JCSC">C19702</field>
@@ -150,7 +150,7 @@
     </comp>
     <comp ref="C2">
       <value>10uF</value>
-      <footprint>Capacitor_SMD:C_0201_0603Metric</footprint>
+      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
       <datasheet>~</datasheet>
       <fields>
         <field name="JCSC">C19702</field>
@@ -162,7 +162,7 @@
     </comp>
     <comp ref="D2">
       <value>LED</value>
-      <footprint>LED_SMD:LED_0201_0603Metric</footprint>
+      <footprint>LED_SMD:LED_0603_1608Metric</footprint>
       <datasheet>~</datasheet>
       <fields>
         <field name="JCSC">C2286</field>

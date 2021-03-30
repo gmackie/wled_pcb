@@ -1,8 +1,8 @@
-Comment,Designator,Footprint,LCSC Part Number
-10uF Unpolarized capacitor,"C1,C2",C_0201_0603Metric,C19702
+Comment,Designator,Footprint,LCSC Part #
+10uF Unpolarized capacitor,"C1,C2",C_0603_1608Metric,C19702
 "1N5819 40V 1A Schottky Barrier Rectifier Diode, DO-41",D1,D_SOD-323,C191023
-LED Light emitting diode,D2,LED_0201_0603Metric,C2286
+LED Light emitting diode,D2,LED_0603_1608Metric,C2286
 "S8050 0.7A Ic, 20V Vce, Low Voltage High Current NPN Transistor, TO-92","Q1,Q2",SOT-23,C2146
-12k Resistor,"R1,R2",R_0201_0603Metric,C22790
+12k Resistor,"R1,R2",R_0603_1608Metric,C22790
 ESP-12F 802.11 b/g/n Wi-Fi Module,U1,ESP-12E,C82891
 "AMS1117-3.3 1A Low Dropout regulator, positive, 3.3V fixed output, SOT-223",U2,SOT-223-3_TabPin2,C6186
