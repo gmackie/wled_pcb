@@ -13,113 +13,6 @@ Comment2 ""
 Comment3 ""
 Comment4 ""
 $EndDescr
-$Comp
-L RF_Module:ESP-12F U1
-U 1 1 605E2E75
-P 3950 2650
-F 0 "U1" H 3500 1900 50  0000 C CNN
-F 1 "ESP-12F" H 4300 1950 50  0000 C CNN
-F 2 "RF_Module:ESP-12E" H 3950 2650 50  0001 C CNN
-F 3 "http://wiki.ai-thinker.com/_media/esp8266/esp8266_series_modules_user_manual_v1.1.pdf" H 3600 2750 50  0001 C CNN
-F 4 "C82891" H 3950 2650 50  0001 C CNN "JCSC"
-F 5 "C82891" H 3950 2650 50  0001 C CNN "LCSC Part"
-	1    3950 2650
-	1    0    0    -1  
-$EndComp
-$Comp
-L Transistor_BJT:S8050 Q1
-U 1 1 605E3833
-P 7000 2050
-F 0 "Q1" H 7191 2004 50  0000 L CNN
-F 1 "S8050" H 7191 2095 50  0000 L CNN
-F 2 "Package_TO_SOT_SMD:SOT-23" H 7200 1975 50  0001 L CIN
-F 3 "http://www.unisonic.com.tw/datasheet/S8050.pdf" H 7000 2050 50  0001 L CNN
-F 4 "C2146" H 7000 2050 50  0001 C CNN "JCSC"
-F 5 "C2146" H 7000 2050 50  0001 C CNN "LCSC Part"
-	1    7000 2050
-	-1   0    0    1   
-$EndComp
-$Comp
-L Transistor_BJT:S8050 Q2
-U 1 1 605E3CB7
-P 7000 3200
-F 0 "Q2" H 7191 3154 50  0000 L CNN
-F 1 "S8050" H 7191 3245 50  0000 L CNN
-F 2 "Package_TO_SOT_SMD:SOT-23" H 7200 3125 50  0001 L CIN
-F 3 "http://www.unisonic.com.tw/datasheet/S8050.pdf" H 7000 3200 50  0001 L CNN
-F 4 "C2146" H 7000 3200 50  0001 C CNN "JCSC"
-F 5 "C2146" H 7000 3200 50  0001 C CNN "LCSC Part"
-	1    7000 3200
-	-1   0    0    1   
-$EndComp
-$Comp
-L Device:R R1
-U 1 1 605E460C
-P 7700 2050
-F 0 "R1" V 7493 2050 50  0000 C CNN
-F 1 "12k" V 7584 2050 50  0000 C CNN
-F 2 "Resistor_SMD:R_0603_1608Metric" V 7630 2050 50  0001 C CNN
-F 3 "~" H 7700 2050 50  0001 C CNN
-F 4 "C22790" H 7700 2050 50  0001 C CNN "JCSC"
-F 5 "C22790" H 7700 2050 50  0001 C CNN "LCSC Part"
-	1    7700 2050
-	0    1    1    0   
-$EndComp
-$Comp
-L Device:R R2
-U 1 1 605E4B89
-P 7700 3200
-F 0 "R2" V 7493 3200 50  0000 C CNN
-F 1 "12k" V 7584 3200 50  0000 C CNN
-F 2 "Resistor_SMD:R_0603_1608Metric" V 7630 3200 50  0001 C CNN
-F 3 "~" H 7700 3200 50  0001 C CNN
-F 4 "C22790" H 7700 3200 50  0001 C CNN "JCSC"
-F 5 "C22790" H 7700 3200 50  0001 C CNN "LCSC Part"
-	1    7700 3200
-	0    1    1    0   
-$EndComp
-Text GLabel 8650 2050 2    50   Input ~ 0
-DTR
-Text GLabel 8650 3200 2    50   Input ~ 0
-RTS
-Text GLabel 6900 3550 0    50   Input ~ 0
-GPIO0
-Text GLabel 6900 1750 0    50   Input ~ 0
-EN
-Wire Wire Line
-	7850 2050 8500 2050
-Wire Wire Line
-	8650 3200 8500 3200
-Wire Wire Line
-	6900 3000 6900 2750
-Wire Wire Line
-	6900 2750 8500 2400
-Wire Wire Line
-	8500 2400 8500 2050
-Connection ~ 8500 2050
-Wire Wire Line
-	8500 2050 8650 2050
-Wire Wire Line
-	8500 3200 8500 2750
-Wire Wire Line
-	8500 2750 6900 2400
-Wire Wire Line
-	6900 2400 6900 2250
-Connection ~ 8500 3200
-Wire Wire Line
-	8500 3200 7850 3200
-Wire Wire Line
-	6900 1850 6900 1750
-Wire Wire Line
-	7200 2050 7550 2050
-Wire Wire Line
-	6900 3550 6900 3400
-Wire Wire Line
-	7200 3200 7550 3200
-Text GLabel 4550 2050 2    50   Input ~ 0
-GPIO0
-Text GLabel 3350 2250 0    50   Input ~ 0
-EN
 Text GLabel 4550 2450 2    50   Input ~ 0
 SCL
 Text GLabel 4550 2550 2    50   Input ~ 0
@@ -143,7 +36,7 @@ U 1 1 605E837C
 P 8200 4850
 F 0 "J4" H 8228 4826 50  0000 L CNN
 F 1 "POWER" H 8228 4735 50  0000 L CNN
-F 2 "Connector_JST:JST_PH_B2B-PH-K_1x02_P2.00mm_Vertical" H 8200 4850 50  0001 C CNN
+F 2 "Connector_JST:JST_XH_B2B-XH-A_1x02_P2.50mm_Vertical" H 8200 4850 50  0001 C CNN
 F 3 "~" H 8200 4850 50  0001 C CNN
 F 4 "0" H 8200 4850 50  0001 C CNN "JLCPCB BOM"
 	1    8200 4850
@@ -169,13 +62,13 @@ Text GLabel 6150 5050 0    50   Input ~ 0
 GND
 Text GLabel 3950 3350 3    50   Input ~ 0
 GND
-Text GLabel 3950 1850 1    50   Input ~ 0
+Text GLabel 4050 1800 2    50   Input ~ 0
 VDD3V3
 Text GLabel 4550 2250 2    50   Input ~ 0
 DATA
-Text GLabel 4550 2150 2    50   Input ~ 0
+Text GLabel 5400 2200 2    50   Input ~ 0
 TXD
-Text GLabel 4550 2350 2    50   Input ~ 0
+Text GLabel 5400 2450 2    50   Input ~ 0
 RXD
 $Comp
 L Connector:Conn_01x06_Female J1
@@ -183,7 +76,7 @@ U 1 1 605EA9C4
 P 6350 4250
 F 0 "J1" H 6378 4226 50  0000 L CNN
 F 1 "PROGRAM_HEADER" H 6378 4135 50  0000 L CNN
-F 2 "Connector_PinSocket_2.54mm:PinSocket_1x06_P2.54mm_Vertical" H 6350 4250 50  0001 C CNN
+F 2 "Connector_JST:JST_XH_B6B-XH-A_1x06_P2.50mm_Vertical" H 6350 4250 50  0001 C CNN
 F 3 "~" H 6350 4250 50  0001 C CNN
 F 4 "0" H 6350 4250 50  0001 C CNN "JLCPCB BOM"
 	1    6350 4250
@@ -325,7 +218,6 @@ NoConn ~ 3350 2850
 NoConn ~ 3350 2750
 NoConn ~ 3350 2650
 NoConn ~ 3350 2450
-NoConn ~ 3350 2050
 $Comp
 L Mechanical:MountingHole H1
 U 1 1 605ED406
@@ -374,4 +266,120 @@ F 4 "0" H 3250 7500 50  0001 C CNN "JLCPCB BOM"
 	1    3250 7500
 	1    0    0    -1  
 $EndComp
+$Comp
+L Switch:SW_SPST SW2
+U 1 1 60B01930
+P 5050 1800
+F 0 "SW2" H 5050 2035 50  0000 C CNN
+F 1 "FLASH" H 5050 1944 50  0000 C CNN
+F 2 "Button_Switch_SMD:SW_SPST_B3S-1000" H 5050 1800 50  0001 C CNN
+F 3 "~" H 5050 1800 50  0001 C CNN
+	1    5050 1800
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R R1
+U 1 1 60B03CF4
+P 2600 2050
+F 0 "R1" V 2393 2050 50  0000 C CNN
+F 1 "10K" V 2484 2050 50  0000 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder" V 2530 2050 50  0001 C CNN
+F 3 "~" H 2600 2050 50  0001 C CNN
+	1    2600 2050
+	0    1    1    0   
+$EndComp
+Text GLabel 2350 2050 0    50   Input ~ 0
+VDD3V3
+Wire Wire Line
+	2450 2050 2350 2050
+$Comp
+L Device:R R2
+U 1 1 60B0901B
+P 3100 2250
+F 0 "R2" V 2893 2250 50  0000 C CNN
+F 1 "10K" V 2984 2250 50  0000 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder" V 3030 2250 50  0001 C CNN
+F 3 "~" H 3100 2250 50  0001 C CNN
+	1    3100 2250
+	0    1    1    0   
+$EndComp
+Text GLabel 2800 2250 0    50   Input ~ 0
+VDD3V3
+Wire Wire Line
+	3250 2250 3350 2250
+Wire Wire Line
+	2800 2250 2950 2250
+Wire Wire Line
+	4050 1800 3950 1800
+Wire Wire Line
+	3950 1800 3950 1850
+Text GLabel 5350 2050 2    50   Input ~ 0
+GND
+Wire Wire Line
+	5250 2050 5350 2050
+Wire Wire Line
+	4850 2050 4550 2050
+$Comp
+L Device:LED D4
+U 1 1 60B0CA21
+P 5100 2400
+F 0 "D4" H 5093 2145 50  0000 C CNN
+F 1 "LED" H 5093 2236 50  0000 C CNN
+F 2 "LED_SMD:LED_0603_1608Metric" H 5100 2400 50  0001 C CNN
+F 3 "~" H 5100 2400 50  0001 C CNN
+F 4 "C2286" H 5100 2400 50  0001 C CNN "JCSC"
+F 5 "C2286" H 5100 2400 50  0001 C CNN "LCSC Part"
+	1    5100 2400
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:LED D3
+U 1 1 60B0E01C
+P 5050 2200
+F 0 "D3" H 5043 1945 50  0000 C CNN
+F 1 "LED" H 5043 2036 50  0000 C CNN
+F 2 "LED_SMD:LED_0603_1608Metric" H 5050 2200 50  0001 C CNN
+F 3 "~" H 5050 2200 50  0001 C CNN
+F 4 "C2286" H 5050 2200 50  0001 C CNN "JCSC"
+F 5 "C2286" H 5050 2200 50  0001 C CNN "LCSC Part"
+	1    5050 2200
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	5400 2200 5200 2200
+Wire Wire Line
+	4900 2200 4800 2200
+Wire Wire Line
+	4800 2200 4800 2150
+Wire Wire Line
+	4800 2150 4550 2150
+Wire Wire Line
+	4550 2350 4950 2350
+Wire Wire Line
+	4950 2350 4950 2400
+Wire Wire Line
+	5250 2400 5350 2400
+Wire Wire Line
+	5350 2400 5350 2450
+Wire Wire Line
+	5350 2450 5400 2450
+Wire Wire Line
+	4850 2050 4850 1800
+Wire Wire Line
+	5250 2050 5250 1800
+$Comp
+L RF_Module:ESP-12F U1
+U 1 1 605E2E75
+P 3950 2650
+F 0 "U1" H 3500 1900 50  0000 C CNN
+F 1 "ESP-12F" H 4300 1950 50  0000 C CNN
+F 2 "RF_Module:ESP-12E" H 3950 2650 50  0001 C CNN
+F 3 "http://wiki.ai-thinker.com/_media/esp8266/esp8266_series_modules_user_manual_v1.1.pdf" H 3600 2750 50  0001 C CNN
+F 4 "C82891" H 3950 2650 50  0001 C CNN "JCSC"
+F 5 "C82891" H 3950 2650 50  0001 C CNN "LCSC Part"
+	1    3950 2650
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2750 2050 3350 2050
 $EndSCHEMATC

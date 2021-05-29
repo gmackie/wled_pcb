@@ -1,0 +1,163 @@
+Cmp-Mod V01 Created by PcbNew   date = 5/29/2021 10:14:46 AM
+
+BeginCmp
+TimeStamp = 60B26048
+Path = 
+Reference = G***;
+ValeurCmp = LOGO;
+IdModule  = wled:bitmap;
+EndCmp
+
+BeginCmp
+TimeStamp = 60B0FA98
+Path = /60B01930
+Reference = FLASH;
+ValeurCmp = FLASH;
+IdModule  = Button_Switch_SMD:SW_SPST_B3S-1000;
+EndCmp
+
+BeginCmp
+TimeStamp = 605E9004
+Path = /605F17ED
+Reference = J3;
+ValeurCmp = QWIIC;
+IdModule  = Connector_JST:JST_SH_SM04B-SRSS-TB_1x04-1MP_P1.00mm_Horizontal;
+EndCmp
+
+BeginCmp
+TimeStamp = 605E904D
+Path = /605E776B
+Reference = U2;
+ValeurCmp = AMS1117-3.3;
+IdModule  = Package_TO_SOT_SMD:SOT-223-3_TabPin2;
+EndCmp
+
+BeginCmp
+TimeStamp = 605E924C
+Path = /605E2E75
+Reference = U1;
+ValeurCmp = ESP-12F;
+IdModule  = RF_Module:ESP-12E;
+EndCmp
+
+BeginCmp
+TimeStamp = 60B102FF
+Path = /605F033B
+Reference = PWR;
+ValeurCmp = LED;
+IdModule  = LED_SMD:LED_0603_1608Metric;
+EndCmp
+
+BeginCmp
+TimeStamp = 605E91F2
+Path = /605EDF7E
+Reference = C2;
+ValeurCmp = 10uF;
+IdModule  = Capacitor_SMD:C_0603_1608Metric;
+EndCmp
+
+BeginCmp
+TimeStamp = 605E9087
+Path = /605ED441
+Reference = C1;
+ValeurCmp = 10uF;
+IdModule  = Capacitor_SMD:C_0603_1608Metric;
+EndCmp
+
+BeginCmp
+TimeStamp = 605E8DC3
+Path = /605EDE16
+Reference = H4;
+ValeurCmp = MountingHole;
+IdModule  = MountingHole:MountingHole_3.2mm_M3_DIN965_Pad;
+EndCmp
+
+BeginCmp
+TimeStamp = 605E8DD8
+Path = /605EDCEB
+Reference = H3;
+ValeurCmp = MountingHole;
+IdModule  = MountingHole:MountingHole_3.2mm_M3_DIN965_Pad;
+EndCmp
+
+BeginCmp
+TimeStamp = 605E8794
+Path = /605ED8D4
+Reference = H2;
+ValeurCmp = MountingHole;
+IdModule  = MountingHole:MountingHole_3.2mm_M3_DIN965_Pad;
+EndCmp
+
+BeginCmp
+TimeStamp = 605E878C
+Path = /605ED406
+Reference = H1;
+ValeurCmp = MountingHole;
+IdModule  = MountingHole:MountingHole_3.2mm_M3_DIN965_Pad;
+EndCmp
+
+BeginCmp
+TimeStamp = 60B1050C
+Path = /605E8AE2
+Reference = J2;
+ValeurCmp = LED0;
+IdModule  = Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical;
+EndCmp
+
+BeginCmp
+TimeStamp = 60B0F9DC
+Path = /60B0E01C
+Reference = TXD;
+ValeurCmp = LED;
+IdModule  = LED_SMD:LED_0603_1608Metric;
+EndCmp
+
+BeginCmp
+TimeStamp = 60B1045D
+Path = /60B0CA21
+Reference = RXD;
+ValeurCmp = LED;
+IdModule  = LED_SMD:LED_0603_1608Metric;
+EndCmp
+
+BeginCmp
+TimeStamp = 60B107AE
+Path = /60B03CF4
+Reference = R1;
+ValeurCmp = 10K;
+IdModule  = Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder;
+EndCmp
+
+BeginCmp
+TimeStamp = 60B10719
+Path = /60B0901B
+Reference = R2;
+ValeurCmp = 10K;
+IdModule  = Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder;
+EndCmp
+
+BeginCmp
+TimeStamp = 60B10D96
+Path = /605EC723
+Reference = D1;
+ValeurCmp = 1N5819;
+IdModule  = Diode_SMD:D_SOD-323;
+EndCmp
+
+BeginCmp
+TimeStamp = 60B10B76
+Path = /605EA9C4
+Reference = J1;
+ValeurCmp = PROGRAM_HEADER;
+IdModule  = Connector_JST:JST_XH_B6B-XH-A_1x06_P2.50mm_Vertical;
+EndCmp
+
+BeginCmp
+TimeStamp = 60B10374
+Path = /605E837C
+Reference = J4;
+ValeurCmp = POWER;
+IdModule  = Connector_JST:JST_XH_B2B-XH-A_1x02_P2.50mm_Vertical;
+EndCmp
+
+EndListe
