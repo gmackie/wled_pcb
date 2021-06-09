@@ -1,17 +1,17 @@
-Cmp-Mod V01 Created by PcbNew   date = 5/29/2021 10:14:46 AM
+Cmp-Mod V01 Created by PcbNew   date = 6/8/2021 8:53:31 PM
 
 BeginCmp
-TimeStamp = 60B26048
-Path = 
-Reference = G***;
-ValeurCmp = LOGO;
-IdModule  = wled:bitmap;
+TimeStamp = 60B10374
+Path = /605E837C
+Reference = J4;
+ValeurCmp = POWER;
+IdModule  = Connector_JST:JST_XH_B2B-XH-A_1x02_P2.50mm_Vertical;
 EndCmp
 
 BeginCmp
 TimeStamp = 60B0FA98
 Path = /60B01930
-Reference = FLASH;
+Reference = SW2;
 ValeurCmp = FLASH;
 IdModule  = Button_Switch_SMD:SW_SPST_B3S-1000;
 EndCmp
@@ -25,7 +25,7 @@ IdModule  = Connector_JST:JST_SH_SM04B-SRSS-TB_1x04-1MP_P1.00mm_Horizontal;
 EndCmp
 
 BeginCmp
-TimeStamp = 605E904D
+TimeStamp = 60C02027
 Path = /605E776B
 Reference = U2;
 ValeurCmp = AMS1117-3.3;
@@ -43,13 +43,13 @@ EndCmp
 BeginCmp
 TimeStamp = 60B102FF
 Path = /605F033B
-Reference = PWR;
+Reference = D2;
 ValeurCmp = LED;
 IdModule  = LED_SMD:LED_0603_1608Metric;
 EndCmp
 
 BeginCmp
-TimeStamp = 605E91F2
+TimeStamp = 60C00FF0
 Path = /605EDF7E
 Reference = C2;
 ValeurCmp = 10uF;
@@ -65,7 +65,7 @@ IdModule  = Capacitor_SMD:C_0603_1608Metric;
 EndCmp
 
 BeginCmp
-TimeStamp = 605E8DC3
+TimeStamp = 60C024F0
 Path = /605EDE16
 Reference = H4;
 ValeurCmp = MountingHole;
@@ -73,7 +73,7 @@ IdModule  = MountingHole:MountingHole_3.2mm_M3_DIN965_Pad;
 EndCmp
 
 BeginCmp
-TimeStamp = 605E8DD8
+TimeStamp = 60C02623
 Path = /605EDCEB
 Reference = H3;
 ValeurCmp = MountingHole;
@@ -107,7 +107,7 @@ EndCmp
 BeginCmp
 TimeStamp = 60B0F9DC
 Path = /60B0E01C
-Reference = TXD;
+Reference = D3;
 ValeurCmp = LED;
 IdModule  = LED_SMD:LED_0603_1608Metric;
 EndCmp
@@ -115,13 +115,13 @@ EndCmp
 BeginCmp
 TimeStamp = 60B1045D
 Path = /60B0CA21
-Reference = RXD;
+Reference = D4;
 ValeurCmp = LED;
 IdModule  = LED_SMD:LED_0603_1608Metric;
 EndCmp
 
 BeginCmp
-TimeStamp = 60B107AE
+TimeStamp = 60C00EC1
 Path = /60B03CF4
 Reference = R1;
 ValeurCmp = 10K;
@@ -153,11 +153,35 @@ IdModule  = Connector_JST:JST_XH_B6B-XH-A_1x06_P2.50mm_Vertical;
 EndCmp
 
 BeginCmp
-TimeStamp = 60B10374
-Path = /605E837C
-Reference = J4;
-ValeurCmp = POWER;
-IdModule  = Connector_JST:JST_XH_B2B-XH-A_1x02_P2.50mm_Vertical;
+TimeStamp = 60C008BA
+Path = /60C0A230
+Reference = R3;
+ValeurCmp = 250;
+IdModule  = Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder;
+EndCmp
+
+BeginCmp
+TimeStamp = 60C008CB
+Path = /60C081D0
+Reference = R4;
+ValeurCmp = 10K;
+IdModule  = Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder;
+EndCmp
+
+BeginCmp
+TimeStamp = 60C008DC
+Path = /60C05B3D
+Reference = R5;
+ValeurCmp = 250;
+IdModule  = Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder;
+EndCmp
+
+BeginCmp
+TimeStamp = 60C008F6
+Path = /60C0B809
+Reference = SW1;
+ValeurCmp = RESET;
+IdModule  = Button_Switch_SMD:SW_SPST_B3S-1000;
 EndCmp
 
 EndListe

@@ -4,7 +4,9 @@ Comment,Designator,Footprint,LCSC Part #
 LED Light emitting diode,D2,LED_0603_1608Metric,C2286
 LED Light emitting diode,D3,LED_0603_1608Metric,C72043
 LED Light emitting diode,D4,LED_0603_1608Metric,C72041
-10K Resistor,"R1,R2",R_0603_1608Metric_Pad0.98x0.95mm_HandSolder,C25804
+10K Resistor,"R1,R2,R4",R_0603_1608Metric_Pad0.98x0.95mm_HandSolder,C25804
+250 Resistor,"R3,R5",R_0603_1608Metric_Pad0.98x0.95mm_HandSolder,C22966
+RESET Single Pole Single Throw (SPST) switch,SW1,SW_SPST_B3S-1000,C620316
 FLASH Single Pole Single Throw (SPST) switch,SW2,SW_SPST_B3S-1000,C620316
 ESP-12F 802.11 b/g/n Wi-Fi Module,U1,ESP-12E,C82891
 "AMS1117-3.3 1A Low Dropout regulator, positive, 3.3V fixed output, SOT-223",U2,SOT-223-3_TabPin2,C6186
