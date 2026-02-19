@@ -20,3 +20,8 @@ fp-info-cache
 *.zip
 
 *.code-workspace
+
+# Claude Code
+.claude/settings.local.json
+session-ses_*.md
+*.kicad_prl
